@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 22.5% 10.5% 14.5% 16.5% 10.5% 24.5%;
+  margin-top: 1vw;
+  padding: 2vw;
+  font-size: 1.2vw;
+  color: antiquewhite;
+  border-bottom: 2px solid antiquewhite;
+  height: 6vw;
+  width: 80%;
+  margin-left: 10%;
+}
+.outerlogo {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  height: 2vw;
+  width: 2vw;
+}
+.coinname {
+  margin-left: 1.5vw;
+}
+.up {
+  color: green;
+}
+.down {
+  color: red;
+}
